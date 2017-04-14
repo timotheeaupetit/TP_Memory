@@ -1,0 +1,8 @@
+#game p img {
+    display: inline;
+    background-color: darkcyan;
+}
+
+.hidden {
+    visibility: hidden;
+}
