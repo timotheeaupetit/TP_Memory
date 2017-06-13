@@ -1,5 +1,9 @@
+#game {
+    display: flex;
+}
+
 #game p img {
-    display: inline;
+    display: inline-flex;
     background-color: darkcyan;
 }
 
