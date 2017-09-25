@@ -7,6 +7,7 @@ function Memory (elementId, images) {
 
     this.launchGame();
 }
+
 Memory.prototype.launchGame = function() {
     this.element.innerHTML = '';
 
@@ -92,7 +93,7 @@ Memory.prototype.reveal = function(ev) {
     
     // si les images sont différentes, on les cache après 1 seconde
     if (this.revealed.length === 2) {
-        setTimeOut(this.hide.bind(this), 1000);
+        setTimeout(this.hide.bind(this), 1000);
     }
 }
 
