@@ -1,5 +1,5 @@
 var images = [
-    "https://pbs.twimg.com/profile_images/774297805116407808/NhxKlL4B.jpg",
+    "http://pauillac.inria.fr/~harley/pics/square.gif",
     "http://4vector.com/i/free-vector-square-and-octagons-clip-art_103997_Square_And_Octagons_clip_art_medium.png",
     "https://s-media-cache-ak0.pinimg.com/236x/97/4b/a5/974ba58f9dbf6102a347ab76d831e049.jpg",
     "http://3.bp.blogspot.com/-33q6sur1VoI/VgcLicdIt4I/AAAAAAAAE1c/AmbOGbTSe0s/s1600/unnamed.png",
