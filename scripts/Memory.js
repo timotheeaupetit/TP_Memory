@@ -18,17 +18,17 @@ Memory.prototype.launchGame = function() {
 }
 
 Memory.prototype.createBoard = function() {
-    var div = document.createElement('div');
-    div.className = 'congratulations hidden';
-    div.innerText = 'Bravo !';
+    var div-cmd = document.createElement('div');
+    div-cmd.className = 'congratulations hidden';
+    div-cmd.innerText = 'Bravo !';
 
     var button = document.createElement('button');
     button.innerText = 'Rejouer';
     button.onclick = this.launchGame.bind(this);
 
-    div.appendChild(button);
+    div-cmd.appendChild(button);
 
-    this.element.appendChild(div);
+    this.element.appendChild(div-cmd);
 
     for (var i = 0; i < this.images.length; i++) {
         this.createCard(this.images[i]);
