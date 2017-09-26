@@ -1,10 +1,15 @@
 #game {
     display: flex;
+    flex-flow: row wrap;
 }
 
-#game p img {
-    display: inline-flex;
+#game div {
+    display: flex;
+}
+
+#game p {
     background-color: darkcyan;
+    margin: 10px;
 }
 
 .hidden {
