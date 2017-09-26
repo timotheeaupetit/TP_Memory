@@ -1,13 +1,14 @@
 #game {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
 }
 
 #game div {
     display: flex;
+    flex-flow: row wrap;
 }
 
-#game p {
+#game div p {
     background-color: darkcyan;
     margin: 10px;
 }
