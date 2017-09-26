@@ -18,26 +18,28 @@ Memory.prototype.launchGame = function() {
 }
 
 Memory.prototype.createBoard = function() {
-    var div-cmd = document.createElement('div');
-    div-cmd.className = 'congratulations hidden';
-    div-cmd.innerText = 'Bravo !';
+    var divCmd = document.createElement('div');
+    divCmd.className = 'congratulations hidden';
+    divCmd.innerText = 'Bravo !';
 
     var button = document.createElement('button');
     button.innerText = 'Rejouer';
     button.onclick = this.launchGame.bind(this);
 
-    div-cmd.appendChild(button);
+    divCmd.appendChild(button);
 
-    this.element.appendChild(div-cmd);
+    this.element.appendChild(divCmd);
 
+    var divCards = document.createElement('div');
     for (var i = 0; i < this.images.length; i++) {
-        this.createCard(this.images[i]);
+        this.createCard(this.images[i], divCards);
     }
 
     // this.images.forEach(this.createImage.bind(this)); // équivalent au for
+    this.element.appendChild(divCards);
 }
 
-Memory.prototype.createCard = function(src) {
+Memory.prototype.createCard = function(src, div) {
     var p = document.createElement('p');
     p.onclick = this.reveal.bind(this);
 
@@ -48,7 +50,7 @@ Memory.prototype.createCard = function(src) {
     img.className = 'hidden';
 
     p.appendChild(img);
-    this.element.appendChild(p);
+    div.appendChild(p);
 }
 
 Memory.prototype.shuffle = function() {
