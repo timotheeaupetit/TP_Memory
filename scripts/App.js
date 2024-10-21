@@ -1,16 +1,16 @@
 var images = [
-    "http://pauillac.inria.fr/~harley/pics/square.gif",
-    "http://4vector.com/i/free-vector-square-and-octagons-clip-art_103997_Square_And_Octagons_clip_art_medium.png",
+    "https://www.svgrepo.com/show/5607/circle.svg",
+    "https://www.svgrepo.com/show/8555/nine-squares.svg",
     "https://s-media-cache-ak0.pinimg.com/236x/97/4b/a5/974ba58f9dbf6102a347ab76d831e049.jpg",
-    "http://3.bp.blogspot.com/-33q6sur1VoI/VgcLicdIt4I/AAAAAAAAE1c/AmbOGbTSe0s/s1600/unnamed.png",
-    "http://images.clipartpanda.com/square-clip-art-ted_Eyes_Crossed.png",
-    "http://is3.mzstatic.com/image/thumb/Purple127/v4/8d/67/8b/8d678be2-3b6e-e2e5-474e-e0ce606d8f2b/source/1200x630bb.jpg",
-    "http://www.janehaslemgallery.com/pages/exhibitions/2014_a_look_at_the_past_grey/images/homage-to-the-square-by-josef-albers-at-jane-haslem-gallery.jpg",
-    "http://www.dibujosparapintar.com/archivos/cuadriculas/nivel_muy_facil.png",
-    "http://is5.mzstatic.com/image/thumb/Purple71/v4/90/ae/1b/90ae1b97-762d-82fa-1ff9-bcc76435ea88/source/1200x630bb.jpg",
+    "https://www.svgrepo.com/show/312934/red-circle.svg",
+    "https://cdn.pixabay.com/photo/2012/04/13/18/38/eyes-33216_960_720.png",
+    "https://www.svgrepo.com/show/449176/payment-square.svg",
+    "https://uploads2.wikiart.org/images/josef-albers/homage-to-the-square-la-tehuana-1951.jpg!Large.jpg",
+    "https://www.svgrepo.com/show/438949/web-round.svg",
+    "https://www.svgrepo.com/show/513372/photo.svg",
     "https://upload.wikimedia.org/wikipedia/commons/7/71/Weaved_truncated_square_tiling.png",
     "https://s.w.org/images/core/emoji/2/svg/25b6.svg",
-    "http://www.politicalmetaphors.com/wp-content/uploads/2015/04/blog-shapes-square-windows.jpg"
+    "https://www.politicalmetaphors.com/wp-content/uploads/2015/04/blog-shapes-square-windows.jpg"
 ];
 
 new Memory('game', images);
